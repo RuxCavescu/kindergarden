@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background-color: white;
+  position: relative;
+}
+
+.header__nav {
+  height: 50px;
+  position: relative;
+  bottom: 0;
+}
+
+.header__nav a {
+  position: relative;
+  top: 25%;
+  padding: 0px 20px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.section-one {
+  background-color: #ffe964;
+}
+
+.section-two {
+  background-color: white;
+}
+
+.section-three {
+  background-color: #ff523d;
+}
+
+.section-four {
+  background-color: #223c88;
+}
