@@ -45,7 +45,7 @@ body {
 .header__title {
   border-bottom: 3px solid white;
   color: white;
-  margin: 0px 0px 0px 200px;
+  margin: 0px 0px 0px 300px;
   padding-bottom: 5px;
   position: absolute;
   text-align: left;
@@ -66,21 +66,24 @@ body {
 }
 
 .section {
-  padding: 100px 0px;
+  padding: 100px 300px;
 }
 
 .section-one__title,
 .section-two__title,
 .section-three__title,
 .section-four__title {
-  margin: 0;
+  margin: 0px 0px 50px 0px;
+  font-size: 2rem;
 }
 
 .section-one__text,
 .section-two__text,
 .section-three__text,
 .section-four__text {
-  margin: 0;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  margin: 0px;
 }
 
 .section-one {
@@ -89,6 +92,7 @@ body {
 
 .section-two {
   background-color: white;
+  text-align: left;
 }
 
 .section-three {
@@ -99,4 +103,31 @@ body {
 .section-four {
   background-color: #223c88;
   color: white;
+}
+
+.section__member_text {
+  padding: 20px 0px 50px 0px;
+}
+
+.section__member_text h3 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.section__member_text p {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  margin-top: 5px;
+}
+
+.section-four {
+  text-align: left;
+}
+
+.section-four h4 {
+  margin: 0;
+}
+
+.section-four p {
+  margin: 10px 0px;
 }
