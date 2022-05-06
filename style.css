@@ -13,23 +13,68 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.header {
-  background-color: white;
-  position: relative;
-}
-
-.header__nav {
+.nav {
   height: 50px;
   position: relative;
   bottom: 0;
 }
 
-.header__nav a {
+.nav a {
   position: relative;
-  top: 25%;
+  top: 50%;
   padding: 0px 20px;
   text-decoration: none;
   color: #000000;
+}
+
+.header {
+  position: relative;
+  height: 400px; /* You must set a specified height */
+  background-image: url(img/banner.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.header__title {
+  border-bottom: 3px solid white;
+  color: white;
+  margin: 0px 0px 0px 200px;
+  padding-bottom: 5px;
+  position: absolute;
+  text-align: left;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+
+.header__title_letter-color-item1 {
+  color: #ffe964;
+}
+
+.header__title_letter-color-item2 {
+  color: #ff523d;
+}
+
+.header__title_letter-color-item3 {
+  color: #223c88;
+}
+
+.section {
+  padding: 100px 0px;
+}
+
+.section-one__title,
+.section-two__title,
+.section-three__title,
+.section-four__title {
+  margin: 0;
+}
+
+.section-one__text,
+.section-two__text,
+.section-three__text,
+.section-four__text {
+  margin: 0;
 }
 
 .section-one {
